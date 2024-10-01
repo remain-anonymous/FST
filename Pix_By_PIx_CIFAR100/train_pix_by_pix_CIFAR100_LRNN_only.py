@@ -16,7 +16,7 @@ seq_len = 1024
 features = 3 
 out_dim = 100
 batch_size = 16
-DEVICE = 1
+DEVICE = 0
 
 configs = [  
             {'hid_feature_size': 1024, 'nblocks': 4},
