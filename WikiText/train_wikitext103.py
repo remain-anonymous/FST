@@ -2,7 +2,7 @@
 
 import torch
 from torch.utils.data import Dataset, DataLoader
-from model import *
+from wikitext_model import *
 import pickle
 from tqdm import tqdm
 from time import time
