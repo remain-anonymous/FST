@@ -1,0 +1,7 @@
+basic_test.tsv and large_i_train.tsv files go here
+
+basic_test.tsv from:
+  "https://storage.googleapis.com/long-range-arena/lra_release.gz"
+
+large_i_train (6 files * 1e6). Generate from code found here:
+  "https://github.com/google-research/long-range-arena/blob/main/lra_benchmarks/data/listops.py"
