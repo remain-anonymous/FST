@@ -1,0 +1,5 @@
+
+data downloaded by executing the task code which uses the following:
+  
+from torchvision import datasets
+self.mnist = datasets.MNIST(root='MNIST_data', train=train, download=True)
