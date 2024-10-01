@@ -8,7 +8,7 @@ import numpy as np
 from torch.utils.data import Dataset, DataLoader
 from torchvision import datasets, transforms
 from pixel_by_pixel_CIFAR100_task import PixelByPixelCIFAR100
-from model import *
+from pix_by_pix_CIFAR100_model import *
 
 criterion = nn.CrossEntropyLoss()
 
