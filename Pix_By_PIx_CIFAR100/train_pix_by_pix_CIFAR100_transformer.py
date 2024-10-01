@@ -16,7 +16,7 @@ seq_len = 1024
 features = 3 
 out_dim = 100
 batch_size = 16
-DEVICE = 3
+DEVICE = 0
 
 
 configs = [ 
