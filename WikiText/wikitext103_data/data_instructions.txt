@@ -1,0 +1,16 @@
+data files:
+  wiki.train.tokens.berttok.pkl
+  wiki.test.tokens.berttok.pkl
+  wiki.valid.tokens.berttok.pkl
+
+These files are tokenised and pickled 
+
+from transformers import BertTokenizer
+tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
+
+orignial download from: 
+  https://dax-assets-dev.s3.us-south.cloud-object-storage.appdomain.cloud/dax-wikitext-103/1.0.0/wikitext-103.tar.gz
+
+  - wiki.text.tokens
+  - wiki.train.tokens
+  - wiki.valid.tokens
